@@ -1,0 +1,76 @@
+
+.main .hero-skin .new-hero{
+    margin-top: 20px;
+}
+.main .hero-skin .new-hero .album{
+    display: block;
+}
+.main .hero-skin .new-hero .intro{
+    padding:10px 15px;
+    border: 1px solid #eee;
+    border-top: none;
+}
+.main .hero-skin .new-hero .intro .name{
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+}
+.main .hero-skin .new-hero .intro .date{
+    color: azure;
+}
+
+.main .hero-skin .hero-list{
+    display: flex;
+
+    justify-content: space-between;
+}
+.main .hero-skin .hero-list .item a{
+    position: relative;
+    display: block;
+}
+.main .hero-skin .hero-list .item a .cover{
+    display: flex;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    writing-mode: vertical-lr;
+    background-color: rgb(0, 0, 0,.6);
+    transition: opacity 300ms ease-in;
+}
+.main .hero-skin .hero-list .item a:hover .cover{
+    opacity: 1;
+}
+
+
+
+.main .right-content .kpl-schedule{
+    margin-top: 20px;
+}
+.main .kpl-schedule .schedule-time{
+    font-size: 12px;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+} 
+.main .kpl-schedule .schedule-time thead tr{
+    height: 29px;
+    line-height: 29px;
+    background-color: #eee;
+}
+.main .kpl-schedule .schedule-time tbody td{
+    padding: 10px 0;
+}
+.main .kpl-schedule .schedule-time tbody td div{
+    margin-bottom: 5px;
+}
+
+.main .kpl-schedule .schedule-time tbody img{
+    
+    width: 25px;
+    height: 25px;
+}

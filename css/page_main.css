@@ -1,0 +1,27 @@
+.main{
+    background:url(../img/main_bg.jpg) no-repeat;
+}
+
+.main .link{
+    display: block;
+    width: 1200px;
+    height: 440px;
+    margin: 8px auto 12px;
+}
+
+.main .section-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .section-content .left-content{
+    width: 872px;
+    height: 1000px;
+
+}
+
+.main .section-content .right-content{
+    width: 295px;
+    height: 500px;
+
+}
